@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+  .body{
+    overflow-y: hidden;
+  }
+  .location{
+    width: 100%;
+    background-color: black;
+    height:17px;
+    padding-bottom: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .location a{
+    color: aliceblue;
+    text-decoration: none;
+    float: right;
+    padding-top: 8px;
+    padding-right: 17px;
+  } 
+  .topnav{
+    display: flex;
+    background-color: #141414;
+    height: 20px;
+    padding: 20px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .topnav a{
+    text-decoration: none;
+    margin-left: 11px;
+    color: white;
+  }
+  @media screen and (max-width:500px) {
+    .topnav a{
+        margin-left: 10px;
+    }
+}
+  .homewatch{
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #141414;
+  }
+  .onimage{
+    position: absolute;
+    top: 170px;
+    left: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+  }
+  @media screen and (max-width:500px) {
+    .onimage{
+        top: 50px;
+        left: 5px;
+        font-size: 15px;
+    }
+}
+  .explore{
+    text-align: center;
+    background-color: #141414;
+    color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: larger;
+  }
+  .clctn1{
+    width: 100%;
+    height: 100%;
+  }
+  .clctn2{
+    width: 100%;
+    height: 100%;
+  }
+  .collections{
+    display: flex;
+    background-color: #141414;
+    justify-content: space-evenly;
+  }
+  .collection{
+    display: flex;
+    background-color: #141414;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 60px;
+  }
+  .watch1{
+    color: #ffffff;
+  }
+  .watch2{
+    color: #ffffff;
+  }
+  .Warranty{
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-around;
+    padding-bottom: 60px;  
+  }
+  @media screen and (max-width:500px) {
+    .Warranty{
+        display: block;
+        padding-left:12%;
+    }
+}
+  .Warrantypara{
+    font-size: 15px;
+  }
+  .service{
+    width: 80%;
+    height: 100%;
+  
+  }
+  .favourite{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 30px;
+  }
+  .suggestions{
+    background-color: #f2f2f2;
+    align-items: center; 
+    float: left;
+    margin-left: 15px;
+  }
+  .watches{
+    float: left;
+    padding: 5px;
+    height: 250px;
+  }
+  .models{
+    display: flex;
+    justify-content: space-around;
+  }
+  @media screen and (max-width:500px) {
+    .models{
+        display: flex;
+        flex-direction: column;
+    }
+}
+  .first{
+    text-align: center;
+  }
+  .second{
+    text-align: center;
+  }
+  .third{
+    text-align: center;
+  }
+  .forth{
+    text-align: center;
+  }
+  .fifth{
+    text-align: center;
+  }
+  .main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: auto;
+  }
+  @media screen and (max-width:500px) {
+    .main{
+        display: block;
+    }
+}
+  .chrono{
+    position: absolute;
+    top: 65%;
+    right: 73%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .Skeleton{
+    position: absolute;
+    top: 65%;
+    right: 42%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .leather{
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .styles{
+    width: 33.3%;
+    height: 33.3%;
+    filter: brightness(70%);
+  }
+  .main1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: auto;
+  }
+  @media screen and (max-width:500px) {
+    .main1{
+        display: block;
+    }
+}
+  .men{
+    position: absolute;
+    top: 65%;
+    right: 69%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .women{
+    position: absolute;
+    top: 65%;
+    left: 69%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .gender{
+    width: 50%;
+    height: 50%;
+    filter: brightness(50%);
+  }
+  .meterial{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+  }
+  @media screen and (max-width:500px) {
+    .meterial{
+        display: block;
+        padding-left: 12%;
+    }
+}
+  .meterialpara{
+    font-size: 15px;
+    padding-top: 70px;
+  }
+  .met{
+    width: 80%;
+    height:100%;
+  }
+  .main2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  @media screen and (max-width:500px) {
+    .main2{
+        display: block;
+        padding-left: 13%;
+    }
+}
+  .footer{
+    background-color: #141414;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+  }
+  @media screen and (max-width:500px) {
+    .footer{
+        display: block;
+        padding-left: 35%;
+    }
+}
+
+
+  
